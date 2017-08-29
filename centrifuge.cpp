@@ -515,7 +515,8 @@ static void resetOptions() {
     col_name_map["readQual1"] = QUAL1;
     col_name_map["readQual2"] = QUAL2;
 
-    tab_fmt_col_def = "readID,seqID,taxID,score,2ndBestScore,hitLength,queryLength,numMatches";
+    //test
+    tab_fmt_col_def = "readID,seqID,taxID,score,2ndBestScore,hitLength,queryLength,numMatches,SEQ";
     parse_col_fmt(tab_fmt_col_def, tab_fmt_cols_str, tab_fmt_cols);
     
 #ifdef USE_SRA

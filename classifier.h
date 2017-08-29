@@ -1037,11 +1037,12 @@ private:
 
     void reportUnclassified( AlnSinkWrap<index_t>& sink )
     {
-	    AlnRes rs ;
-	    EList<pair<uint32_t,uint32_t> > dummy ;
-	    dummy.push_back( make_pair( 0, 0 ) ) ;
-	    rs.init( 0, 0, string( "unclassified" ), 0, 0, 0, dummy, true ) ;
-	    sink.report( 0, &rs ) ;
+//	    AlnRes rs ;
+//	    EList<pair<uint32_t,uint32_t> > dummy ;
+//	    dummy.push_back( make_pair( 0, 0 ) ) ;
+//	    rs.init( 0, 0, string( "unclassified" ), 0, 0, 0, dummy, true ) ;
+//	    sink.report( 0, &rs ) ;
+        return;
     }
 
 
